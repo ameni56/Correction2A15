@@ -1,4 +1,5 @@
-// Partie 3 Etude de cas 2A15
+// Partie 3 Etude de cas 
+//ksfkbjkbj
 document.addEventListener("DOMContentLoaded",function(){
 
 var titleElement=document.getElementById("title");
