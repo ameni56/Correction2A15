@@ -91,11 +91,13 @@
                                             <form id="addTravelOfferForm">
                                                 <label for="title">Title:</label><br>
                                                 <input class="form-control form-control-user" type="text" id="title" name="title" minlength="3" required  title="Enter a title for the travel offer. The title must be at least 3 characters long.">
-                                             <br>
+                                            <span id="title_error"></span>
+                                                <br>
                                         
                                                 <label for="destination">Destination:</label><br>
                                                 <input class="form-control form-control-user" type="text" id="destination" name="destination" pattern="[A-Za-z]{3,}" required title="Enter the destination of the travel offer. The destination must be at least 3 characters long and contain only letters and spaces.">
-                                           <br>
+                                                <span id="destination_error"></span>
+                                                <br>
                                         
                                                 <label for="departure_date">Departure Date:</label><br>
                                                 <input class="form-control form-control-user" type="date" id="departure_date" name="departure_date" required title="Select the departure date.">
@@ -178,7 +180,7 @@
         <!-- Page level custom scripts -->
         <script src="js/demo/chart-area-demo.js"></script>
         <script src="js/demo/chart-pie-demo.js"></script>
-    
+    <script src="./js/addOffer.js"></script>
     </body>
 
 </html>
