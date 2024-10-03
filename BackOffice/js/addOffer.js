@@ -1,3 +1,4 @@
+// Partie 3 JS
 document.addEventListener("DOMContentLoaded",function(){
 
 var titleElement=document.getElementById("title");
