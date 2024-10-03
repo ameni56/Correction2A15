@@ -1,4 +1,4 @@
-// Partie 3 Etude de cas 2A15
+
 document.addEventListener("DOMContentLoaded",function(){
 
 var titleElement=document.getElementById("title");
